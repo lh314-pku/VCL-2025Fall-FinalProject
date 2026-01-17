@@ -1,0 +1,195 @@
+{
+    find_program = {
+        nim = false,
+        curl = [[C:\Users\20153\xmake\winenv\bin\curl]],
+        git = [[D:\GIT_MSC\Git\cmd\git.exe]],
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe]],
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe]],
+        tar = [[C:\Windows\System32\tar.exe]],
+        gzip = [[D:\LATEX\bin\windows\gzip.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe]]
+    },
+    find_programver = {
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe"] = "19.44.35217"
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::glfw_d59f6dd71e7647cc95d2c1d35e51a39a_release_3.4_external"] = {
+            linkdirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib]]
+            },
+            links = {
+                "glfw3"
+            },
+            license = "zlib",
+            syslinks = {
+                "user32",
+                "shell32",
+                "gdi32"
+            },
+            libfiles = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib\glfw3.lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\include]]
+            },
+            defines = "GLFW_INCLUDE_NONE",
+            static = true,
+            version = "3.4"
+        },
+        ["xmake::stb_5add428b704648039c039d4d74bed865_release_2025.03.14_external"] = {
+            version = "2025.03.14",
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\s\stb\2025.03.14\5add428b704648039c039d4d74bed865\include]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\s\stb\2025.03.14\5add428b704648039c039d4d74bed865\include\stb]]
+            }
+        },
+        ["xmake::glad_728361337c5c4347a2bbe35cbbe1c092_release_v0.1.36_external"] = {
+            linkdirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glad\v0.1.36\728361337c5c4347a2bbe35cbbe1c092\lib]]
+            },
+            links = {
+                "glad"
+            },
+            license = "MIT",
+            static = true,
+            libfiles = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glad\v0.1.36\728361337c5c4347a2bbe35cbbe1c092\lib\glad.lib]]
+            },
+            version = "v0.1.36",
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glad\v0.1.36\728361337c5c4347a2bbe35cbbe1c092\include]]
+            }
+        },
+        ["xmake::glm_8e704035b4b349e8b24c40b592e14ab2_release_1.0.0_external"] = {
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glm\1.0.0\8e704035b4b349e8b24c40b592e14ab2\include]]
+            },
+            version = "1.0.0",
+            license = "MIT"
+        },
+        ["xmake::spdlog_f0315a3a96984a418ff57bb210e533f9_release_v1.15.3_external"] = {
+            cxxflags = "/utf-8",
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\s\spdlog\v1.15.3\f0315a3a96984a418ff57bb210e533f9\include]]
+            },
+            version = "v1.15.3",
+            license = "MIT"
+        },
+        ["xmake::eigen_ad4e9e04652248d6872dd8645256ff1c_release_3.4.0_external"] = {
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\e\eigen\3.4.0\ad4e9e04652248d6872dd8645256ff1c\include]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\e\eigen\3.4.0\ad4e9e04652248d6872dd8645256ff1c\include\eigen3]]
+            },
+            version = "3.4.0",
+            license = "MPL-2.0"
+        },
+        ["xmake::yaml-cpp_c0926e9bd3924318a735576bfb7ca8f2_release_0.8.0_external"] = {
+            linkdirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2\lib]]
+            },
+            links = {
+                "yaml-cpp"
+            },
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2\include]]
+            },
+            license = "MIT",
+            static = true,
+            libfiles = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2\lib\yaml-cpp.lib]]
+            },
+            version = "0.8.0",
+            defines = "YAML_CPP_STATIC_DEFINE"
+        },
+        ["xmake::tinyobjloader_bd2e4e8e2a164e3b805e4412fcbe8c54_release_v2.0.0rc13_external"] = {
+            linkdirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\bd2e4e8e2a164e3b805e4412fcbe8c54\lib]]
+            },
+            links = {
+                "tinyobjloader"
+            },
+            license = "MIT",
+            static = true,
+            libfiles = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\bd2e4e8e2a164e3b805e4412fcbe8c54\lib\tinyobjloader.lib]]
+            },
+            version = "v2.0.0rc13",
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\bd2e4e8e2a164e3b805e4412fcbe8c54\include]]
+            }
+        },
+        ["xmake::fmt_ee1902dd7cff4195a287949f80dbce70_release_11.2.0_external"] = {
+            linkdirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\f\fmt\11.2.0\ee1902dd7cff4195a287949f80dbce70\lib]]
+            },
+            links = {
+                "fmt"
+            },
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\f\fmt\11.2.0\ee1902dd7cff4195a287949f80dbce70\include]]
+            },
+            license = "MIT",
+            static = true,
+            libfiles = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\f\fmt\11.2.0\ee1902dd7cff4195a287949f80dbce70\lib\fmt.lib]]
+            },
+            version = "11.2.0",
+            cxxflags = "/utf-8"
+        },
+        ["xmake::imgui_058b98bc7cf94c319b845320d606f897_release_v1.90.1_external"] = {
+            linkdirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\include]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\include\imgui]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\include\backends]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\include\misc\cpp]]
+            },
+            static = true,
+            license = "MIT",
+            syslinks = "imm32",
+            libfiles = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\lib\imgui.lib]]
+            },
+            version = "v1.90.1",
+            links = {
+                "imgui"
+            }
+        }
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\cl.exe]]
+    },
+    find_programver_fetch_package_system = {
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake"] = "3.31.6-msvc6",
+        ["C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja\\ninja"] = "1.12.1"
+    },
+    find_program_fetch_package_xmake = {
+        ninja = false,
+        cmake = false,
+        python = false,
+        python3 = false,
+        python2 = false
+    },
+    find_program_fetch_package_system = {
+        ninja = [[C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja\ninja]],
+        cmake = [[C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake]]
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35217_cxx_cxflags_-nologo_cl_external_includedir"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35217_cxx_cxflags_-nologo_cl_sourceDependencies"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35217_cxx_cxflags_-nologo_-std:c++20"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35217_cxx__-nologo_-O2"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35217_cxx_cxxflags_-nologo_/utf-8"] = true,
+        ["windows_x64_C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\cl.exe_19.44.35217_cxx_cxflags_-nologo_-DNDEBUG"] = true
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolar = {
+        ["link.exe"] = [[C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe]]
+    }
+}

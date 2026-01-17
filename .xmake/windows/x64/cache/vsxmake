@@ -1,0 +1,5 @@
+{
+    kind = "vsxmake",
+    archs = "x64",
+    outputdir = "./build"
+}

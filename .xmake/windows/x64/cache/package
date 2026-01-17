@@ -1,0 +1,173 @@
+{
+    stb = {
+        __requirestr = "stb",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\s\stb\2025.03.14\5add428b704648039c039d4d74bed865]],
+        sysincludedirs = {
+            [[C:\Users\20153\AppData\Local\.xmake\packages\s\stb\2025.03.14\5add428b704648039c039d4d74bed865\include]],
+            [[C:\Users\20153\AppData\Local\.xmake\packages\s\stb\2025.03.14\5add428b704648039c039d4d74bed865\include\stb]]
+        },
+        __enabled = true,
+        version = "2025.03.14"
+    },
+    glfw = {
+        links = {
+            "glfw3",
+            "opengl32"
+        },
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a]],
+        linkdirs = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib]],
+        libfiles = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\lib\glfw3.lib]],
+        syslinks = {
+            "user32",
+            "shell32",
+            "gdi32"
+        },
+        version = "3.4",
+        __enabled = true,
+        __requirestr = "glfw",
+        license = "zlib",
+        sysincludedirs = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\include]],
+        defines = "GLFW_INCLUDE_NONE",
+        envs = {
+            PATH = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glfw\3.4\d59f6dd71e7647cc95d2c1d35e51a39a\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\n\ninja\v1.13.1\fd5a0995dca64146a4f4c4dbff879aad\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\c\cmake\4.0.3\5249d11949644178abe2f58a6ffb0624\bin]]
+            }
+        },
+        static = true
+    },
+    glm = {
+        __requirestr = "glm 1.0.0",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glm\1.0.0\8e704035b4b349e8b24c40b592e14ab2]],
+        license = "MIT",
+        __enabled = true,
+        sysincludedirs = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glm\1.0.0\8e704035b4b349e8b24c40b592e14ab2\include]],
+        envs = {
+            PATH = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\g\glm\1.0.0\8e704035b4b349e8b24c40b592e14ab2\bin]]
+            }
+        },
+        version = "1.0.0"
+    },
+    glad = {
+        links = "glad",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glad\v0.1.36\728361337c5c4347a2bbe35cbbe1c092]],
+        linkdirs = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glad\v0.1.36\728361337c5c4347a2bbe35cbbe1c092\lib]],
+        libfiles = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glad\v0.1.36\728361337c5c4347a2bbe35cbbe1c092\lib\glad.lib]],
+        version = "v0.1.36",
+        __enabled = true,
+        license = "MIT",
+        __requirestr = "glad",
+        sysincludedirs = [[C:\Users\20153\AppData\Local\.xmake\packages\g\glad\v0.1.36\728361337c5c4347a2bbe35cbbe1c092\include]],
+        envs = {
+            PATH = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\n\ninja\v1.13.1\fd5a0995dca64146a4f4c4dbff879aad\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\c\cmake\4.0.3\5249d11949644178abe2f58a6ffb0624\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\p\python\3.13.2\6faae9af9f22402ab07797869df2de6e\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\p\python\3.13.2\6faae9af9f22402ab07797869df2de6e\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\p\python\3.13.2\6faae9af9f22402ab07797869df2de6e\Scripts]]
+            },
+            PYTHONPATH = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\p\python\3.13.2\6faae9af9f22402ab07797869df2de6e\Lib\site-packages]]
+            }
+        },
+        static = true
+    },
+    fmt = {
+        links = "fmt",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\f\fmt\11.2.0\ee1902dd7cff4195a287949f80dbce70]],
+        linkdirs = [[C:\Users\20153\AppData\Local\.xmake\packages\f\fmt\11.2.0\ee1902dd7cff4195a287949f80dbce70\lib]],
+        libfiles = [[C:\Users\20153\AppData\Local\.xmake\packages\f\fmt\11.2.0\ee1902dd7cff4195a287949f80dbce70\lib\fmt.lib]],
+        version = "11.2.0",
+        __enabled = true,
+        cxxflags = "/utf-8",
+        license = "MIT",
+        sysincludedirs = [[C:\Users\20153\AppData\Local\.xmake\packages\f\fmt\11.2.0\ee1902dd7cff4195a287949f80dbce70\include]],
+        __requirestr = "fmt",
+        envs = {
+            PATH = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\n\ninja\v1.13.1\fd5a0995dca64146a4f4c4dbff879aad\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\c\cmake\4.0.3\5249d11949644178abe2f58a6ffb0624\bin]]
+            }
+        },
+        static = true
+    },
+    eigen = {
+        __requirestr = "eigen",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\e\eigen\3.4.0\ad4e9e04652248d6872dd8645256ff1c]],
+        license = "MPL-2.0",
+        __enabled = true,
+        sysincludedirs = {
+            [[C:\Users\20153\AppData\Local\.xmake\packages\e\eigen\3.4.0\ad4e9e04652248d6872dd8645256ff1c\include]],
+            [[C:\Users\20153\AppData\Local\.xmake\packages\e\eigen\3.4.0\ad4e9e04652248d6872dd8645256ff1c\include\eigen3]]
+        },
+        envs = {
+            PATH = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\n\ninja\v1.13.1\fd5a0995dca64146a4f4c4dbff879aad\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\c\cmake\4.0.3\5249d11949644178abe2f58a6ffb0624\bin]]
+            }
+        },
+        version = "3.4.0"
+    },
+    tinyobjloader = {
+        links = "tinyobjloader",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\bd2e4e8e2a164e3b805e4412fcbe8c54]],
+        linkdirs = [[C:\Users\20153\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\bd2e4e8e2a164e3b805e4412fcbe8c54\lib]],
+        libfiles = [[C:\Users\20153\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\bd2e4e8e2a164e3b805e4412fcbe8c54\lib\tinyobjloader.lib]],
+        version = "v2.0.0rc13",
+        __enabled = true,
+        license = "MIT",
+        __requirestr = "tinyobjloader",
+        sysincludedirs = [[C:\Users\20153\AppData\Local\.xmake\packages\t\tinyobjloader\v2.0.0rc13\bd2e4e8e2a164e3b805e4412fcbe8c54\include]],
+        static = true
+    },
+    imgui = {
+        links = "imgui",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897]],
+        linkdirs = [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\lib]],
+        sysincludedirs = {
+            [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\include]],
+            [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\include\imgui]],
+            [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\include\backends]],
+            [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\include\misc\cpp]]
+        },
+        syslinks = "imm32",
+        version = "v1.90.1",
+        __requirestr = "imgui 1.90.1",
+        license = "MIT",
+        __enabled = true,
+        libfiles = [[C:\Users\20153\AppData\Local\.xmake\packages\i\imgui\v1.90.1\058b98bc7cf94c319b845320d606f897\lib\imgui.lib]],
+        static = true
+    },
+    spdlog = {
+        __requirestr = "spdlog",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\s\spdlog\v1.15.3\f0315a3a96984a418ff57bb210e533f9]],
+        license = "MIT",
+        cxxflags = "/utf-8",
+        sysincludedirs = [[C:\Users\20153\AppData\Local\.xmake\packages\s\spdlog\v1.15.3\f0315a3a96984a418ff57bb210e533f9\include]],
+        __enabled = true,
+        version = "v1.15.3"
+    },
+    ["yaml-cpp"] = {
+        links = "yaml-cpp",
+        installdir = [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2]],
+        linkdirs = [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2\lib]],
+        sysincludedirs = [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2\include]],
+        version = "0.8.0",
+        __enabled = true,
+        __requirestr = "yaml-cpp",
+        license = "MIT",
+        libfiles = [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2\lib\yaml-cpp.lib]],
+        defines = "YAML_CPP_STATIC_DEFINE",
+        envs = {
+            PATH = {
+                [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\y\yaml-cpp\0.8.0\c0926e9bd3924318a735576bfb7ca8f2\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\n\ninja\v1.13.1\fd5a0995dca64146a4f4c4dbff879aad\bin]],
+                [[C:\Users\20153\AppData\Local\.xmake\packages\c\cmake\4.0.3\5249d11949644178abe2f58a6ffb0624\bin]]
+            }
+        },
+        static = true
+    }
+}
